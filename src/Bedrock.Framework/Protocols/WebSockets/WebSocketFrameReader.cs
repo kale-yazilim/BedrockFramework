@@ -9,7 +9,7 @@ namespace Bedrock.Framework.Protocols.WebSockets
     /// <summary>
     /// An implementation of IMessageReader that parses WebSocket message frames.
     /// </summary>
-    public struct WebSocketFrameReader : IMessageReader<WebSocketReadFrame>
+    /*public struct WebSocketFrameReader : IMessageReader<WebSocketReadFrame>
     {
         /// <summary>
         /// Attempts to parse a message from a sequence.
@@ -91,5 +91,5 @@ namespace Bedrock.Framework.Protocols.WebSockets
             examined = consumed;
             return true;
         }
-    }
+    }*/
 }
